@@ -1,0 +1,19 @@
+{
+  "name": "jarredstelfox.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarstelfox/jarredstelfox.io.git"
+  },
+  "keywords": [],
+  "author": "Jarred Stelfox <jarstelfox@mac.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarstelfox/jarredstelfox.io/issues"
+  },
+  "homepage": "https://github.com/jarstelfox/jarredstelfox.io#readme"
+}
