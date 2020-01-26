@@ -9,4 +9,4 @@ deploy:
   provider: surge
   skip_cleanup: true
   project: ./public/
-  domain: jarstelfox.io.surge.sh
+  domain: jarstelfox-io.surge.sh
