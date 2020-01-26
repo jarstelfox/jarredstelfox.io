@@ -1,22 +1,23 @@
-import React from "react"
+/** @jsx jsx */
+import 'typeface-inter'
+import Helmet from 'react-helmet'
 import PropTypes from "prop-types"
+import { Styled } from 'theme-ui'
+import { Global } from '@emotion/core'
 
-import "./layout.css"
+import { jsx } from 'theme-ui'
+
+const Container = props => {
+  return <div sx={{ maxWidth: '34em', mx: 'auto', px: 5, py: 8 }} {...props} />
+}
 
 const Layout = ({ children }) => {
-
   return (
-    <>
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-      </div>
-    </>
+    <Styled.root>
+      <Helmet></Helmet>
+      <Global styles={{ body: { margin: 0 } }} />
+      <Container>{children}</Container>
+    </Styled.root>
   )
 }
 
