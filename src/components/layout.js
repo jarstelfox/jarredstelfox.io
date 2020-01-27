@@ -8,7 +8,7 @@ import { Global } from '@emotion/core'
 import { jsx } from 'theme-ui'
 
 const Container = props => {
-  return <div sx={{ maxWidth: '34em', mx: 'auto', px: 5, py: 8 }} {...props} />
+  return <div sx={{ maxWidth: '40em', mx: 'auto', px: 5, py: 8 }} {...props} />
 }
 
 const Layout = ({ children }) => {
