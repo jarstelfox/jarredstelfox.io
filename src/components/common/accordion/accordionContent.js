@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
-// import React from 'react'
 import PropTypes from "prop-types"
 import { motion, AnimatePresence } from "framer-motion"
 
